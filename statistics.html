@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Financial Control</title>
+    <body>
+        <main class="main-chart">
+            <div class="container">
+                <div class="tabs">
+                    <div class="tabs__nav">
+                        <button class="tabs__nav-btn active-tab" data-tab="#tab_1">Витрати</button>
+                        <button class="tabs__nav-btn" data-tab="#tab_2">Надходження</button>
+                        <button class="tabs__nav-btn" data-tab="#tab_3">Порівняння</button>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__item active" id="tab_1">
+                            <canvas id="myChart-1"></canvas>
+                        </div>
+                        <div class="tabs__item" id="tab_2">
+                            <canvas id="myChart-2"></canvas>
+                        </div>
+                        <div class="tabs__item" id="tab_3">
+                            <canvas id="myChart-3"></canvas>
+                        </div>
+                    </div>
+               </div>
+                
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script type="module" src="./chart.js"></script>
+        <script type="module" src="./totalSum.js"></script>
+        <script type="module" src="./clickTabStatistics.js"></script>
+    </body>
+</head>
+</html>

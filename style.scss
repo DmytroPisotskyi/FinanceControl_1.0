@@ -1,0 +1,242 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    
+  
+    .input-spend-container{
+        //display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 150px;
+
+
+    }
+    
+    .btn-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 100px;
+
+    }
+
+    
+
+    .category-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        
+    }
+}
+//style item category=======================================
+.category-group__item {
+    width: 100%;
+    max-width: 120px;
+    height: 160px;
+    margin: 30px 10px;
+    border: 0.3px solid red;
+    border-radius: 7px;
+    box-shadow: 9px 11px 8px 0px rgba(34, 60, 80, 0.27);
+    background-color: white;
+    cursor: pointer;
+    padding: 2px;
+
+    .title-item {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    
+    .img-item {
+        text-align: center;
+
+        img {
+            width: 50px;
+            height: auto;
+            margin-top: 10px;
+        }
+    }
+
+    h4 {
+        color: black;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+//style item category=======================================
+//=============================================================
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
+}
+//=====================================================================
+.info-group__spend {
+    margin-right: 15px;
+    
+}
+
+.info-group__add-money {
+    margin-left: 10px;
+}
+
+.btn-group__spend {
+    margin-right: 10px;
+    background-color: #d72727;
+    box-shadow: 9px 11px 8px 0px rgb(0 0 0 / 27%);
+}
+
+.btn-group__add-money {
+    margin-left: 15px;
+    background-color: green;
+    box-shadow: 9px 11px 8px 0px rgb(0 0 0 / 27%);
+}
+
+.btn-group__statistics {
+    background-color: aquamarine;
+    box-shadow: 9px 11px 8px 0px rgb(0 0 0 / 27%);
+}
+
+.button {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    cursor: pointer;
+    //background-color: gray;
+    color: black;
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+    .statistics__button {
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.main-index {
+    background-color: #5757cb;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.categoree-block {
+    background-color: #c1c0c7;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+//input block=====================================================
+
+.main__inner-input {
+   margin-right: 5px;
+
+    .input-control {
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        border-radius: 25px;
+        background-color: aliceblue;
+        border: 0.5px solid black;
+    }
+}
+
+.main__inner-button {
+    margin-top: 7px;
+   
+
+    .btn-submit {
+        width: 170px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 15px;
+        border: none;
+        background-color: green;
+        box-shadow: 9px 11px 8px 0px rgb(0 0 0 / 27%);
+    }
+}
+
+
+.input-title {
+   text-align: center;
+   margin-bottom: 50px;
+
+   .input-title__item {
+    text-decoration: underline;
+   }
+}
+
+.tabs__nav {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    
+
+    .tabs__nav-btn {
+        text-align: center;
+        width: 105px;
+        height: 30px;
+        border: none;
+        background-color: blue;
+        font-size: 15px;
+       
+    }
+
+    .active-tab {
+        background-color: green;
+    }
+}
+
+.tabs__item {
+    display: none;
+}
+
+.active {
+    display: block;
+}
