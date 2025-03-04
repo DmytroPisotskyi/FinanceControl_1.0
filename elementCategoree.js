@@ -10,7 +10,7 @@ const urlCategory = {
     fashion: './img/newImg/laundry.png',
     compGames: './img/newImg/game-console.png',
     health: './img/newImg/healthcare.png',
-    hobby: './img/newImg//hobby.png',
+    hobby: './img/newImg/hobby.png',
 };
 
 

@@ -7,7 +7,7 @@ const categoryItem = document.querySelectorAll('.category-group__item')
 
 categoryItem.forEach(item => {
     item.addEventListener('click', function () {
-        window.location.href = '/inputData.html'
+        window.location.href = './inputData.html'
         const categoreeName = this.dataset.name
 
         const newDateAndSum = {
