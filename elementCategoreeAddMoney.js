@@ -1,8 +1,8 @@
 import ItemDataAddMoney from "./classAddMoney.js";
 
 const urlCategoryAddMoney = {
-    salary: '/img/newImg/wages.png',
-    other: '/img/newImg/money.png',
+    salary: './img/newImg/wages.png',
+    other: './img/newImg/money.png',
 
 }
 

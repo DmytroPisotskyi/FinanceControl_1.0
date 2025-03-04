@@ -1,16 +1,16 @@
 import ItemData from "./class.js"
 
 const urlCategory = {
-    house: "/img/newImg/house.png",
-    transport: "/img/newImg/public-transport.png",
-    food: "/img/newImg/diet.png",
-    byTime: "/img/newImg/dance.png",
-    cinema: '/img/newImg/cinema.png',
-    trip: "/img/newImg/flight.png",
-    fashion: '/img/newImg/laundry.png',
-    compGames: '/img/newImg/game-console.png',
-    health: '/img/newImg/healthcare.png',
-    hobby: '/img/newImg//hobby.png',
+    house: "./img/newImg/house.png",
+    transport: "./img/newImg/public-transport.png",
+    food: "./img/newImg/diet.png",
+    byTime: "./img/newImg/dance.png",
+    cinema: './img/newImg/cinema.png',
+    trip: "./img/newImg/flight.png",
+    fashion: './img/newImg/laundry.png',
+    compGames: './img/newImg/game-console.png',
+    health: './img/newImg/healthcare.png',
+    hobby: './img/newImg//hobby.png',
 };
 
 
