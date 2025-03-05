@@ -13,6 +13,25 @@
     <title>Finance Control</title>
     <body>
         <main class="main main-index">
+            <header class="header">
+                <button class="header__button" type="button">
+                    <img src="./img/newImg/menu.png" width="40px">
+                </button>
+                <div class="mobile-menu">
+                    <div class="mobile-menu__list">
+                        <button class="mobile-menu__close" type="button">
+                            <img src="./img/newImg/home.png" width="50px">
+                        </button>
+                        <div class="info-resault-menu"></div>
+                        <button class="button-menu delete-last" type="button">
+                            Видалити останній запис
+                        </button>
+                        <button class="button-menu delete-all" type="button">
+                            Видалити всі записи
+                        </button>
+                    </div>
+                </div>
+            </header>
             <div class="container">
                 <div class="main-screen">
                     <!--<div class="info-group">
@@ -30,6 +49,8 @@
             </div>
         </main>
         <script type="module" src="./localStorage.js"></script>
+        <script src="./mobileMenu.js"></script>
+        <script src="./deleteData.js"></script>
     </body>
 </head>
 </html>
