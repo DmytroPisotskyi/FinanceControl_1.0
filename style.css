@@ -173,6 +173,7 @@ a {
   font-size: 15px;
   border: none;
   background-color: green;
+  cursor: pointer;
   box-shadow: 9px 11px 8px 0px rgba(0, 0, 0, 0.27);
 }
 
@@ -219,6 +220,7 @@ a {
   color: white;
   position: absolute;
   right: 0;
+  cursor: pointer;
 }
 
 .mobile-menu {
@@ -254,6 +256,7 @@ a {
   padding: 10px;
   font: inherit;
   color: white;
+  cursor: pointer;
 }
 
 .button-menu {
